@@ -180,3 +180,17 @@ for(let i=0;i<numeros1.length;i++){
 //32. Crie um array com 5 frutas e exiba a primeira fruta.
 let frutas = ["banana", "maça", "abacate", "mamão", "manga"];
 console.log(frutas[0]);
+
+//33. Adicione o número 50 no final o array [10,20,30,40].
+let numeros2 = [10,20,30,40];
+numeros2.push(50);
+console.log(numeros2);
+
+//34. Remova o último elemento do array [1, 2, 3, 4, 5].
+let arr2 = [1, 2, 3, 4, 5];
+arr2.pop()
+console.log(arr2);
+
+//35. Exiba quantos elementos tem no array [5, 10, 15, 20].
+let arr3 = [5, 10, 15, 20];
+console.log(arr3.length);
