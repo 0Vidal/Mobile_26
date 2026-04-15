@@ -194,3 +194,12 @@ console.log(arr2);
 //35. Exiba quantos elementos tem no array [5, 10, 15, 20].
 let arr3 = [5, 10, 15, 20];
 console.log(arr3.length);
+
+//36. Some todos os números do array [2, 4, 6, 8].
+let ValoresArray = [2, 4, 6, 8];
+SomaArray = 0;
+for(let i=0;i<ValoresArray.length;i++){
+    SomaArray += ValoresArray[i];
+    
+}; 
+console.log(SomaArray);
