@@ -146,3 +146,37 @@ function soma_array(arr){
 
 }
 console.log(soma_array([2,5,6]));
+
+//====================== ATIVIDADES COM IF =====================================
+
+//11. Verifiqque se o número 15 é positio e exiba uma mensagem
+let numero = 15;
+if (numero > 0){
+    console.log("Positio");
+}
+else{
+    console.log("Negativo");
+};
+
+//12. Verifique se uma pessoa com 17 ano é maior de idade
+let idade = 17;
+if(idade<=18){
+    console.log("Menor de idade")
+}
+else{
+    console.log("Maior de idade")
+};
+
+//==================== ATIVIDADES COM ARRAY ===================================
+
+//31.Crie um array com os numeros 10, 20, 30, 40 e exiba todos.
+let numeros1 = [10, 20, 30, 40];
+console.log(numeros1);
+
+for(let i=0;i<numeros1.length;i++){
+    console.log(numeros1[i])
+};
+
+//32. Crie um array com 5 frutas e exiba a primeira fruta.
+let frutas = ["banana", "maça", "abacate", "mamão", "manga"];
+console.log(frutas[0]);
