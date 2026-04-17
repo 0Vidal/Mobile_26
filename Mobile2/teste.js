@@ -290,3 +290,27 @@ Classifique a pessoa por idade:
 let idades = 11;
 let tipos = idades < 12 ? "criança" : idades <= 17 ? "adolescente" : idades <= 59 ? "adulto" : "idoso";
 console.log(`Sua idade é ${idades}, você é ${tipos}`);
+
+// ========================== ATIVIDADES COM OBJETOS =========================
+// 51: Crie um objeto pessoa com nome "Ana" e idade 25
+let pessoa = {
+    nome: "Ana",
+    idade: 25
+};
+console.log(pessoa);
+
+// 52: Acesse e exiba o nome do objeto {nome: "Carlos", cidade: "São Paulo"}
+let usuario = {
+    nome: "Carlos",
+    cidade: "São Paulo"
+};
+console.log(`Nome ${usuario.nome}`);
+
+// 53: Adicione a propriedade "curso" ao objeto {nome: "Maria", idade: 20}
+let estudante={
+    nome: "Maria",
+    idade: 20
+};
+console.log("antes", estudante);
+estudante.curso = "matemática";
+console.log("depois", estudante);
