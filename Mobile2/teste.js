@@ -223,6 +223,17 @@ for(i = 0; i<fruta.length; i++){
     };
 };
 
+//39. Exiba um por um dos elementos do array ["azul","verde","amarelo"]
+let arrayCores = ["Azul","Verde","Amarelo"];
+for(i=0;i<arrayCores.length; i++){
+    console.log(arrayCores[i]);
+};
+
+//40. Exiba o ultimo elemento do array [100,200,300,400,500]
+let numeros = [100,200,300,400,500];
+let ultimo = numeros.length -1;
+console.log(`O ultimo números é ${numeros[ultimo]}`);
+
 /*EXERCÍCIO 1 (FÁCIL)
 Verifique se um número é positivo ou não*/
 let numero = 5;
