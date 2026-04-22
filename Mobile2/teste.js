@@ -204,6 +204,25 @@ for(let i=0;i<ValoresArray.length;i++){
 }; 
 console.log(SomaArray);
 
+// 37. Multiplique cada elemento do array por 2.
+let array3 = [1,2,3,4];
+let multi = []
+for(let i = 0; i < array3.length; i++){
+    multi.push(array3[i] * 2);
+};
+console.log(multi);
+
+// 38. Verifique se a fruta "Laranja" existe no array ["maçã","banana","uva"].
+let fruta = ["maçã","banana","uva"];
+for(i = 0; i<fruta.length; i++){
+    if(fruta[i] == "Laranja"){
+        console.log(`O array ${fruta} tem laranja`)
+    }
+    else{
+        console.log(`O array ${fruta} não tem laranja`)
+    };
+};
+
 /*EXERCÍCIO 1 (FÁCIL)
 Verifique se um número é positivo ou não*/
 let numero = 5;
