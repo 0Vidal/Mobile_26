@@ -234,6 +234,54 @@ let numeros = [100,200,300,400,500];
 let ultimo = numeros.length -1;
 console.log(`O ultimo números é ${numeros[ultimo]}`);
 
+// 41: Crie uma matriz 2x2 com os números 1, 2 na primeira linha e 3,4 na segunda linha
+console.log("\n Criar matriz 2x2")
+let matriz2x2 = [
+    [1,2],
+    [3,4]
+];
+console.log(matriz2x2);
+
+// 42: Exiba o elemento da primeira linha 1, coluna 2 da matriz [[5,6],[7,8]]
+let matriz56 = [
+    [5,6],
+    [7,8]
+]
+console.log(`Elemento da linha 1, coluna 2: ${matriz56[0][1]}`)
+
+// 43: Exiba todos os elementos da matriz [[1,2,3], [4,5,6]]
+let matriz = [
+    [1,2,3],
+    [4,5,6]
+];
+
+for(i=0;i<matriz.length;i++){
+for(j=0;j<matriz[i].length;j++){
+    console.log(`Elementos [${i}] [${j}] = ${matriz[i][j]}`);
+}
+}
+
+// 44: Some todos os números da matriz [[2,4], [6,8]]
+let matrizSoma = [
+    [2,4],
+    [6,8]
+];
+let somaMatriz = 0;
+for(let i = 0; i < matrizSoma.length; i++){
+    for(let j = 0; j <matrizSoma[i].length; j++){
+        somaMatriz += matrizSoma[i][j];
+    };
+};
+console.log(`Soma dos elementos ${somaMatriz}`);
+
+// 45: Crie uma matriz 3x3 com números com números de 1 a 9
+let matriz3x3 = [
+    [1,2,3],
+    [4,5,6],
+    [7,8,9]
+];
+console.log(matriz3x3);
+
 /*EXERCÍCIO 1 (FÁCIL)
 Verifique se um número é positivo ou não*/
 let numero = 5;
