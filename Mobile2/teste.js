@@ -282,6 +282,16 @@ let matriz3x3 = [
 ];
 console.log(matriz3x3);
 
+// 46: Exiba os elementos da diagonal principal da matriz [[1,2,3], [4,5,6], [7,8,9]]
+let diag =[
+    [1,2,3],
+    [4,5,6],
+    [7,8,9]
+]
+for(let i=0;i<diag.length;i++){
+    console.log(diag[i][i]);
+};
+
 /*EXERCÍCIO 1 (FÁCIL)
 Verifique se um número é positivo ou não*/
 let numero = 5;
