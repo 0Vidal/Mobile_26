@@ -292,6 +292,44 @@ for(let i=0;i<diag.length;i++){
     console.log(diag[i][i]);
 };
 
+// 47: Altere o elemento da linha 0,
+// coluna 1 da matriz [[1,2],[3,4]] para 10
+let matrizAlt = [
+    [1,2],
+    [3,4]
+];
+console.log("Antes", matrizAlt);
+matrizAlt[0][1]= 10;
+console.log("Depois", matrizAlt);
+
+// 48: Exiba apenas a primeira
+//linha da matriz [[10,20], [30,40],  [50,60]]
+let matrizLinha = [
+    [10,20],
+    [30,40],
+    [50,60]
+];
+console.log("Primeira Linha:", matrizLinha[0])
+
+// 49: Exiba apenas os elementos
+// da primeira colunada matriz [[1,2],[3,4],[5,6]]
+let matrizColum = [[1,2],[3,4],[5,6]];
+console.log("Primeira coluna");
+for(let i=0;i<matrizColum.length;i++){
+    console.log(matrizColum[i][0]);
+};
+
+// 50: Multiplique cada elemento da matriz[[1,2],[3,4]] por 2
+let matrizMult = [[1,2], [3,4]];
+let resultadoMult = [];
+for(let i = 0; i < matrizMult.length; i++){
+    resultadoMult[i] = [];
+    for(let j = 0; j < matrizMult[i].length; j++){
+        resultadoMult[i][j] = matrizMult[i][j] * 2;}
+}
+console.log("Original:", matrizMult);
+console.log("Multiplicada:", resultadoMult);
+
 /*EXERCÍCIO 1 (FÁCIL)
 Verifique se um número é positivo ou não*/
 let numero = 5;
