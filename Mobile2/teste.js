@@ -440,3 +440,27 @@ let estudante={
 console.log("antes", estudante);
 estudante.curso = "matemática";
 console.log("depois", estudante);
+
+/ 56: Exiba todas as propriedades do objeto {marca: "Nike", tamanho: 42, cor: "preto"}
+let tenis = {
+    Marca: "Nike", 
+    Tamanho: 42, 
+    Cor: "preto"};
+for(let prop in tenis){
+    console.log(`${prop}: ${tenis[prop]}`);
+};
+
+// 57: Crie um objeto cachorro com nome "Rex" e um método latir que exibe "Au au!"
+let cachorro = {
+    nome: "Rex",
+    latir: function(){
+        console.log("Au au!");
+    }
+};
+cachorro.latir();
+
+// 58: Crie um objeto aluno com nome "Lucas" e notas [8, 7, 9]
+let aluno = {
+    nome: "Lucas",
+    notas: [8,7,9]
+}
