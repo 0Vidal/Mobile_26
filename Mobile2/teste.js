@@ -482,3 +482,21 @@ numeros.forEach(function(n){
 console.log("ForEach Arrow modo seta");
 numeros.forEach(n => console.log(n))
 } 
+
+//Mostre todos os valores no terminal
+
+console.log("======Execício 2: Mostre todos os valores no terminal")
+{
+let frutaas = ["Maçã", "Banana", "Uva", "Abacate"];
+console.log("Usano for");
+for(let i=0;i<frutaas.length;i++){
+    console.log(i)
+}
+console.log("Usando foreach");
+frutaas.forEach(function(n){
+
+    console.log(n);
+});
+console.log("ForEach Arrow modo seta");
+frutaas.forEach(n => console.log(n))
+}
