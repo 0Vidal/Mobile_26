@@ -464,3 +464,21 @@ let aluno = {
     nome: "Lucas",
     notas: [8,7,9]
 }
+
+
+console.log("======Exercício 1: Mostrar Elementos======")
+{
+let numeros = [1,2,3,4];
+console.log("Usando for");
+for(let i=0;i<numeros.length;i++){
+    console.log(i)
+}
+console.log("Usando foreach");
+numeros.forEach(function(n){
+
+    console.log(n);
+});
+
+console.log("ForEach Arrow modo seta");
+numeros.forEach(n => console.log(n))
+} 
