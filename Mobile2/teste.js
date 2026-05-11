@@ -500,3 +500,10 @@ frutaas.forEach(function(n){
 console.log("ForEach Arrow modo seta");
 frutaas.forEach(n => console.log(n))
 }
+
+let numeroos =[1,2,3,4,5,6,7,8]
+for(let i=0;i<numeroos.length; i++){
+        if (numeroos[i] % 2 === 0) console.log(numeroos[i]);
+    }
+
+numeroos.forEach(n=>{if(n%2 === 0) console.log(n);});
